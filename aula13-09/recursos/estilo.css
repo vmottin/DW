@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root{
+    --cor1: #122932;
+    --cor2: #2C514C;
+    --cor3: #9CD08F;
+    --cor4: #C4F1BE;
+    --cor5: #E3C0D3;
+    --cor6: #4C061D;
+    --cor7: #f0dee8;
+}
+
+body{
+    background-color: var(--cor7);
+    max-width: 100vw;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header{
+    display: flex;
+    width: 80vw;
+    height: 100px;
+    align-items: center;
+    background-color: var(--cor2);
+    float: right;
+}
+
+#titulo1-1{
+    margin-left: 100px;
+    color: var(--cor3);
+}
+
+#img1{
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    margin-top: 3px;
+}
+
+#sino{
+    width: 30px;
+}
+
+.div1{
+    display: flex;
+    width: 42vw;
+    margin-right: 30px;
+    gap: 30px;
+    justify-content: flex-end;
+}
+
+nav{
+    display: flex;
+    height: 108vh;
+    width: auto;
+    flex-direction: column;
+    background-color: var(--cor1);
+}
+
+
+.div2{
+    display: flex;
+    width: auto;
+    height: 330px;
+    flex-direction: column;
+    border-bottom: solid 1px var(--cor2);
+    align-items: center;
+    text-align: center;
+}
+
+#logo{
+    margin: 10px 0px 20px 0px;
+    width: 140px;
+    height: 70px;
+}
+
+
+#perfil{
+    width: 140px;
+    border-radius: 100%;
+    margin-bottom: 25px;
+}
+#titulo2-1{
+    color: var(--cor5);
+}
+
+.div3{
+    display: flex;
+    width: auto;
+    height: 330px;
+    flex-direction: column;
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
+.div4{
+    display: flex;
+    flex-direction: row;
+    width: 120px;
+    padding-left: 20px;
+}
+
+.div3 :hover{
+    background-color: var(--cor2);
+    text-shadow: 2px 2px black;
+    border-radius: 20px;
+}
+
+#quadrados{
+    width: 25px;
+    margin-right: 10px;
+}
+
+#p1{
+    margin-top: 4px;
+    color: white;
+}
+
+main{
+    position: absolute;
+    top: 150px;
+    left: 19vw;
+    width: 75vw;
+    height: 80vh;
+    background-color: var(--cor5);
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2.5vw;
+}
+
+.div5{
+    display: flex;
+    width: 18vw;
+    height: 32vh;
+    border-radius: 60px;
+    background-color: var(--cor6);
+    margin-top: 40px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    color:aliceblue;
+}
+
+.div6{
+    margin-left: 60px;
+}
+
+h3{
+    padding-top: 30px;
+}
+
+.div7{
+    display: flex;
+    width: 16vw;
+    height: 16vh;
+    margin: 30px;
+    align-items: center;
+}
+
+#img2{
+    width: 100px;
+    margin: 0 20px 0 10px;
+    border-radius: 100%;
+}
+
+footer{
+    display: flex;
+    height: 70px;
+    align-items: center;
+    background-color: var(--cor1);
+    text-align: center;
+    justify-content: center;
+    color: var(--cor4);
+}
+
+#folklore{
+    font-family: 'IM Fell DW Pica', sans-serif;
+}
+
+#p2{
+    font-size: 12px;
+}
