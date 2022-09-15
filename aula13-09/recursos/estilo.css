@@ -13,9 +13,9 @@
     --cor2: #2C514C;
     --cor3: #9CD08F;
     --cor4: #C4F1BE;
-    --cor5: #E3C0D3;
+    --cor5: #5f5d5e;
     --cor6: #4C061D;
-    --cor7: #f0dee8;
+    --cor7: #999698;
 }
 
 body{
@@ -84,12 +84,12 @@ nav{
 
 
 #perfil{
-    width: 140px;
+    width: 9vw;
     border-radius: 100%;
     margin-bottom: 25px;
 }
 #titulo2-1{
-    color: var(--cor5);
+    color: var(--cor7);
 }
 
 .div3{
@@ -110,7 +110,7 @@ nav{
 }
 
 .div3 :hover{
-    background-color: var(--cor2);
+    background-color: var(--cor6);
     text-shadow: 2px 2px black;
     border-radius: 20px;
 }
@@ -136,6 +136,7 @@ main{
     display: flex;
     justify-content: space-around;
     margin-left: 2.5vw;
+    box-shadow: 1px 1px 10px 1px black;
 }
 
 .div5{
@@ -151,10 +152,6 @@ main{
     color:aliceblue;
 }
 
-.div6{
-    margin-left: 60px;
-}
-
 h3{
     padding-top: 30px;
 }
@@ -168,7 +165,7 @@ h3{
 }
 
 #img2{
-    width: 100px;
+    width: 6vw;
     margin: 0 20px 0 10px;
     border-radius: 100%;
 }
