@@ -14,18 +14,18 @@
 
 :root{
     --cor1: rgb(236, 104, 74);
+    --cor2: rgb(250, 244, 244);
+    --cor3: gainsboro;
+    --cor4: grey;
+    --cor5: rgb(62, 62, 62);
     --fonte1: 'Arvo', serif;
     --fonte2: 'OpenSans', sans-serif;
 }
 
 body{
-    background-color: rgb(250, 244, 244);
-    color: rgb(62, 62, 62);
+    background-color: var(--cor2);
+    color: var(--cor5);
     font-family: var(--fonte2);
-}
-
-a{
-    text-decoration: underline;
 }
 
 header{
@@ -61,19 +61,19 @@ header{
 nav{
     display: flex;
     height: 110px;
-    width: 65%;
+    width: 67%;
     justify-content: flex-end;
 }
 
 #textoNav{
     font-family: var(--fonte1);
-    color: gray;
+    color: var(--cor4);
+    margin-right: 35px;
 }
 
 #listaNav{
     display: flex;
     list-style-type: none;
-    gap: 90px;
 }
 
 
@@ -87,7 +87,7 @@ strong #textoNav{
 }
 
 #listaNav li a{
-    color: gray; 
+    color: var(--cor4); 
     text-decoration:none; 
     padding:5px 10px; 
     display:block;
@@ -120,16 +120,17 @@ strong #textoNav{
 
 #sec1{
     display: flex;
-    height: 780px;
+    height: auto;
     width: 90%;
     margin: 50px 5% 0 5%;
     border-radius: 60px 60px 0 0;
-    column-gap: 5%;
-    border-bottom: 2px solid gainsboro;
+    column-gap: 4%;
+    border-bottom: 2px solid var(--cor3);
+    align-items: center;
 }
 
 .div2{
-    width: 40%;
+    width: 60%;
     margin: 60px 0 0 90px;
 }
 
@@ -149,7 +150,7 @@ strong #textoNav{
 
 #p1{
     line-height: 35px;
-    font-size: 16px;
+    font-size: 100%;
     text-align: justify;
     text-indent: 60px;
 }
@@ -169,7 +170,7 @@ strong #textoNav{
     border: 2px solid var(--cor1);
     height: 40px;
     width: 220px;
-    margin: 50px 0 0 10px;
+    margin: 50px 0 50px 10px;
 }
 
 #pBotao{
@@ -238,31 +239,35 @@ strong #textoNav{
     justify-content: center;
     width: 80%;
     margin: 80px 10% 0 10%;
-
+    border-bottom: 2px solid var(--cor3);
 }
 
 #titulo3-2 a{
     color: var(--cor1);
     font-family: var(--fonte1);
-    font-size: 22px;
+    font-size: 28px;
+    text-align: center;
 }
 
 #titulo3-2{
     color: var(--cor1);
     font-family: var(--fonte1);
-    font-size: 20px;
+    font-size: 25px;
+    text-align: center;
 }
 
 #tecnicoTexto{
     margin: 55px 0 40px 0;
     line-height: 30px;
     font-size: 16px;
+    text-align: justify;
 }
 
 #tecnicoTexto2{
     margin-bottom: 50px;
     line-height: 30px;
     font-size: 16px;
+    text-align: justify;
 }
 
 .divAlunos{
@@ -277,8 +282,8 @@ strong #textoNav{
 
 #imgAluno{
     margin: 25px 10px 0 0;
-    width: 200px;
-    height: 200px;
+    width: 50%;
+    height: 50%;
     border-radius: 40px;
 }
 
@@ -296,7 +301,7 @@ strong #textoNav{
 .redes{
     display: flex;
     align-items: flex-end;
-    width: 230px;
+    width: inherit;
     margin-top: 20px;
     height: 40px;
     justify-content: space-evenly;
@@ -329,7 +334,7 @@ strong #textoNav{
     margin: 0 5% 0 5%;
     border-radius: 60px 60px 0 0;
     column-gap: 5%;
-    border-bottom: 2px solid gainsboro;
+    border-bottom: 2px solid var(--cor3);
     align-items: center;
 }
 
@@ -401,14 +406,59 @@ strong #textoNav{
 
 footer{
     display: flex;
-    background-color: gainsboro;
+    background-color: var(--cor3);
     width: 90%;
     margin-left: 5%;
-    border-top: 2px solid gray;
+    border-top: 2px solid var(--cor4);
     justify-content: center;
 }
 
 #textoFooter{
     padding: 30px 50px 30px 50px;
     font-family: var(--fonte1);
+}
+
+#sec5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 80px 10% 0 10%;
+}
+
+.divProfessores{
+    display: flex;
+    width: 100%;
+    padding-top: 80px;
+    height: 450px;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.divProfessor{
+    display: flex;
+    height: 380px;
+    width: 40%;
+}
+
+.div6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+    margin-left: 30px;
+}
+
+#imgProfessor{
+    margin: 25px 10px 0 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+iframe{
+    margin-bottom: 50px;
 }

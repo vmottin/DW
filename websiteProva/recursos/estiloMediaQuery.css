@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
 @font-face {
     font-family: OpenSans;
     src: url(../recursos/fontes/OpenSans-VariableFont_wdth\,wght.ttf);
@@ -13,7 +14,7 @@
 }
 
 
-:root{
+:root {
     --cor1: rgb(236, 104, 74);
     --cor2: rgb(250, 244, 244);
     --cor3: gainsboro;
@@ -27,6 +28,27 @@ body{
     background-color: var(--cor2);
     color: var(--cor5);
     font-family: var(--fonte2);
+}
+
+@media (max-width: 1500px) {
+    body{
+        background-color: var(--cor5);
+        color: white;
+        font-family: var(--fonte2);
+    }
+
+    #sec1 p{
+        background-color: gray;
+        border-radius: 20px;
+        padding: 30px;
+    }
+
+    .div3 {
+        text-align: center;
+        margin-top: 50px;
+        color: white;
+    }
+
 }
 
 header{
@@ -88,118 +110,62 @@ strong #textoNav{
     color: var(--cor1);
 }
 
-#listaNav li a{
-    color: gray; 
-    text-decoration:none; 
-    padding:5px 10px; 
-    display:block;
+
+#listaNav li a {
+    color: gray;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
 }
 
-#listaNav li a:hover{
-    box-shadow:0 1px 3px 0 #CCC;
-    box-shadow:0 1px 3px 0 #ccc;
+#listaNav li a:hover {
+    box-shadow: 0 1px 3px 0 #CCC;
+    box-shadow: 0 1px 3px 0 #ccc;
     text-shadow: 0px 1px 5px #fff;
     font-weight: 600;
 }
 
-#listaNav li ul{
-    position:absolute;
-    top:35px;
-    background-color:#fff;
-    display:none;
+#listaNav li ul {
+    position: absolute;
+    top: 35px;
+    background-color: #fff;
+    display: none;
     font-size: 12px;
     border-radius: 0 0 20px 20px;
 }
 
-#listaNav li:hover ul, #listaNav li.over ul{
-    display:block;
+#listaNav li:hover ul,
+#listaNav li.over ul {
+    display: block;
 }
 
-#listaNav li ul li{
-    display:block;
+#listaNav li ul li {
+    display: block;
     width: 180px;
 }
 
-#nav2 {
+main {
     display: flex;
-    width: 350px;
-    height: 1530px;
-    background-color: var(--cor1);
-    justify-content: center;
-    margin: 50px 0 50px 5%;
-    border-radius: 50px;
-}
-
-.div2{
-    text-align: center;
-    color: #fff;
-}
-
-.div2 h1{
-    font-size: 40px;
-    margin: 30px;
-    text-shadow: 2px 1px 4px black;
-    font-family: var(--fonte1);
-}
-
-.div2 img{
-    height: 280px;
-    width: 280px;
-}
-
-#img1{
-    border-radius: 100%;
-}
-
-#final{
-    margin-left: 177px;
-}
-
-#inicial{
-    margin-top: 60px;
-}
-
-.div2 p{
-    text-align: justify;
-    line-height: 50px;
-    font-size: 16px;
-    margin: 0 40px 0 40px;
-}
-
-#descricao{
-    text-align: justify;
-    line-height: 30px;
-    font-size: 16px;
-    margin: 50px 40px 0 40px;
-}
-
-.div2 h2{
-    margin-top: 30px;
-    text-decoration: underline;
-    text-underline-offset: 15px;
-    font-family: var(--fonte1);
-}
-
-main{
-    display: flex;
-    position: absolute;
-    top: 180px;
-    left: 30%;
-    width: 60%;
-    height: 1410px;
+    width: 80%;
+    height: 1140px;
     justify-content: center;
     flex-direction: column;
-    margin-top: 50px;
+    margin: 50px 10% 50px 10%;
     border: 2px solid rgb(170, 170, 170);
-    border-radius: 50px;
-    padding: 70px;
+    border-radius: 80px;
 }
 
-.div3{
+#sec1 {
     justify-content: center;
+    border: 2px solid var(--cor1);
+    height: 1000px;
+    margin: 70px;
+    border-radius: 80px;
+    padding: 100px;
 }
 
-.div3 p{
+
+#sec1 p {
     text-align: justify;
     color: #000;
     font-size: 18px;
@@ -208,7 +174,7 @@ main{
     margin-bottom: 20px;
 }
 
-.div3 h1{
+#sec1 h1 {
     text-align: center;
     color: #000;
     font-size: 40px;
@@ -216,18 +182,16 @@ main{
     font-family: var(--fonte1);
 }
 
-footer{
+.div3 {
+    text-align: center;
+    margin-top: 70px;
+}
+
+footer {
     display: flex;
     background-color: var(--cor1);
     width: 100%;
     height: 100px;
     justify-content: center;
     align-items: center;
-}
-
-
-#textoRodape{
-    font-size: 18px;
-    color: #fff;
-    font-family: var(--fonte1);
 }
