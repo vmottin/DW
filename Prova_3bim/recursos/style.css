@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url("fontes/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
+*{
+    max-width: 100%;
+    max-height: 100%;
+    font-family: 'Montserrat';
+}
+
+:root{
+    --cor1: #595959;
+    --cor2: #202020;
+}
+
+body{
+    background-color: var(--cor2);
+}
+
+.div1{
+    width: 100vw;
+    height: 96.1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#p1{
+    color: white;
+}
+
+#logo{
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.but1{
+    width: 130px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: var(--cor1);
+    border: 0px;
+    color: white;
+}
+
+footer{
+    background-color: var(--cor1);
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 20px 20px 0 0;
+    font-size: 12px;
+    width: 100vw;
+}
+
+.div2{
+    display: flex;
+    background-color: var(--cor2);
+    width: 100vw;
+    height: 98.9vh;
+    border-radius: 70px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+input{
+    width: 200px;
+    height: 30px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    border-radius: 50px;
+    padding: 0 10px 0 10px;
+}
+
+#login{
+    margin-left: 20px;
+}
+
+.div3{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 80%;
+    bottom: 40px;
+}
+
+#voltar{
+    position: absolute;
+    top: 70px;
+    right: 120px;
+    border-radius: 50px;
+    width: 70px;
+    height: 25px;
+    background-color: var(--cor1);
+    color: white;
+    font-size: 12px;
+    border: 0;
+}
+
+#botaoLogin{
+    border-radius: 50px;
+    width: 100px;
+    height: 30px;
+    background-color: var(--cor1);
+    color: white;
+    font-size: 14px;
+    border: 0;
+}
+
+#miniLogo{
+    height: 60px;
+    width: 120px;
+    position: relative;
+    top: 15px;
+}

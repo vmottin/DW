@@ -1,0 +1,268 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url("fontes/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Gleego';
+    src: url("fontes/Glegoo-Bold.ttf") format("truetype");
+}
+
+*{
+    max-width: 100%;
+    max-height: 100%;
+    font-family: 'Montserrat';
+}
+
+:root{
+    --cor1: #595959;
+    --cor2: #202020;
+}
+
+body{
+    background-color: var(--cor2);
+}
+
+.div1{
+    display: flex;
+    width: 95vw;
+    height: 90.8vh;
+    margin-top: 5vh;
+    margin-left: 2.5%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+#sair{
+    position: absolute;
+    top: 85px;
+    right: 105px;
+    border-radius: 50px;
+    width: 70px;
+    height: 22px;
+    background-color: var(--cor1);
+    color: white;
+    font-size: 12px;
+    border: 0;
+}
+
+header{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 0.5px solid var(--cor1);
+}
+
+#busca{
+    width: 450px;
+    height: 30px;
+    border-radius: 50px;
+    padding: 0 10px 0 10px;
+    position: relative;
+    right: 50px;
+}
+
+.div2{
+    display: flex;
+    align-items: center;
+    height: 85%;
+    gap: 10px;
+}
+
+#buscar{
+    border-radius: 50px;
+    width: 100px;
+    height: 30px;
+    background-color: var(--cor1);
+    color: white;
+    font-size: 14px;
+    border: 0;
+    position: relative;
+    right: 15px;
+}
+
+#banners{
+    width: 350px;
+    border-radius: 0 0 50px 50px;
+    height: 470px;
+}
+
+#banners:hover{
+    opacity: 0.5;
+    transition-duration: 0.3s;
+}
+
+ul{
+    list-style-type: none;
+    text-align: right;
+    line-height: 45px;
+    font-weight: bold;
+}
+
+#logo{
+    width: 120px;
+    position: relative;
+    bottom: 20px;
+    left: 5px;
+}
+
+#h1-1{
+    position: relative;
+    bottom: 52px;
+    right: 10px;
+}
+
+#listaNav{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    position: relative;
+    left: 200px;
+}
+
+.div3{
+    position: relative;
+    right: 300px;
+}
+
+a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+}
+
+a li{
+    color: white;
+    transition-duration: 0.3s;
+    font-family: 'Gleego';
+
+}
+
+a li:hover{
+    color: #e53333;
+}
+
+a li:active{
+    color: #801f1f;
+}
+
+#icon{
+    width: 30px;
+    position: relative;
+    bottom: 25px;
+    left: 270px;
+    margin: 0 7px 0 7px;
+}
+
+#icon:hover{
+    transition-duration: 0.5s;
+    filter: brightness(0.2) sepia(0.4) saturate(9997%);
+}
+
+#icon:active{
+    filter: brightness(0.1) sepia(0.3) saturate(10000%);
+}
+
+.div4{
+    display: flex;
+    width: 50vw;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav2{
+    height: 15%;
+    width: 95vw;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.5px solid var(--cor1);
+    justify-content: center;
+}
+
+#logo2{
+    width: 120px;
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+}
+
+.div5{
+    display: flex;
+    width: 95vw;
+    height: 90.8vh;
+    margin-top: 5vh;
+    margin-left: 2.5%;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+}
+
+#sair2{
+    position: absolute;
+    top: 85px;
+    right: 105px;
+    border-radius: 50px;
+    width: 90px;
+    height: 22px;
+    background-color: var(--cor1);
+    color: white;
+    font-size: 12px;
+    border: 0;
+}
+
+.div6{
+    width: 65vw;
+    background-color: var(--cor1);
+    height: 340px;
+    margin-top: 60px;
+    border-radius: 50px;
+    padding: 40px 80px;
+    text-align: center;
+}
+
+#carrinho{
+    margin: 50px 0 70px 0;
+}
+
+#botaoHome{
+    width: 220px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Gleego';
+}
+
+#h1-2{
+    position: relative;
+    bottom: 52px;
+    right: 35px;
+}
+
+h3{
+    text-align: left;
+    font-family: 'Gleego';
+}
+
+#icon2{
+    width: 30px;
+    position: relative;
+    bottom: 25px;
+    left: 285px;
+    margin: 0 7px 0 7px;
+}
+
+#icon2:hover{
+    filter: brightness(0.2) sepia(0.4) saturate(9997%);
+    transition-duration: 0.5s;
+}
+
+#icon2:active{
+    transition-duration: 0.3s;
+    filter: brightness(0.1) sepia(0.3) saturate(10000%);
+}

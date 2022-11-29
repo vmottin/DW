@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="recursos/style3.css">
+    <link rel="shortcut icon" href="recursos/imagens/favicon.ico" type="image/x-icon">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="div1">
+        <header>
+            <div class="div3">
+                <img src="recursos/imagens/simbolo.png" alt="" srcset="" id="logo">
+                <h1 id="h1-1">Sapataria</h1>
+            </div>
+            <ul id="listaNav">
+                <a href="">
+                    <li>FEMININO</li>
+                </a>
+                <a href="">
+                    <li>MASCULINO</li>
+                </a>
+                <a href="">
+                    <li>NOVIDADES</li>
+                </a>
+                <a href="">
+                    <li>PROMOÇÕES</li>
+                </a>
+            </ul>
+            <a href="user.html"><img src="recursos/imagens/user.png" alt="" srcset="" id="icon"></a>
+            <a href="cart.html"><img src="recursos/imagens/carrinho.png" alt="" srcset="" id="icon"></a>
+        </header>
+        <a href="main.html"><button id="sair">Voltar</button></a>
+        <nav class="nav2">
+
+            <div class="div2">
+                <img src="recursos/imagens/user.png" alt="" srcset="" id="perfil">
+                <h2>Olá, Victória!</h2>
+            </div>
+
+
+            <ul id="listaPerfil">
+                <a href="">
+                    <li>Cartões</li>
+                </a>
+                <a href="">
+                    <li>Dados Pessoais</li>
+                </a>
+                <a href="">
+                    <li>Endereços</li>
+                </a>
+                <a href="">
+                    <li>Pedidos</li>
+                </a>
+                <a href="">
+                    <li>Trocas e Devoluções</li>
+                </a>
+                <a href="">
+                    <li>Listas de desejos</li>
+                </a>
+            </ul>
+
+        </nav>
+
+        <div class="div4">
+            <h2 id="h2-1">Dados Pessoais</h2>
+            <div class="div6">
+                <div class="div5">
+                    <label for="nome"><b>Nome</b></label>
+                    <input type="text" name="nome" readonly id="nome" placeholder="Victória S. Mottin">
+                    <label for="cpf"><b>CPF</b></label>
+                    <input type="text" name="cpf" id="cpf" placeholder="xxx.xxx.xxx-xx" readonly>
+
+                    <label for="email"><b>Email</b></label>
+                    <input type="email" name="email" id="email" placeholder="vmottin@alunos.utfpr.edu.br" readonly>
+                </div>
+                <div class="div5">
+                    <label for="genero"><b>Gênero</b></label>
+                    <input type="text" name="genero" id="genero" placeholder="Feminino" readonly>
+                    <label for="telefone"><b>Telefone</b></label>
+                    <input type="tel" pattern="([0-9]{3})[0-9]{5}-[0-9]{4}" name="telefone" id="telefone"
+                        placeholder="(44) 99116-5617" readonly>
+                    <label for="data"><b>Data de Nascimento</b></label>
+                    <input type="text" name="data" id="data" placeholder="03/10/2005" readonly>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,357 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url("fontes/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Gleego';
+    src: url("fontes/Glegoo-Bold.ttf") format("truetype");
+}
+
+*{
+    max-width: 100%;
+    max-height: 100%;
+    font-family: 'Montserrat';
+}
+
+:root{
+    --cor1: #595959;
+    --cor2: #202020;
+}
+
+body{
+    background-color: var(--cor2);
+}
+
+.div1{
+    display: flex;
+    width: 95vw;
+    height: 90.8vh;
+    margin-top: 5vh;
+    margin-left: 2.5%;
+    flex-direction: column;
+    color: white;
+}
+
+header{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 0.5px solid var(--cor1);
+}
+
+.div3{
+    position: relative;
+    right: 285px;
+}
+
+#listaNav{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    position: relative;
+    left: 200px;
+}
+
+a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+}
+
+a li{
+    color: white;
+    transition-duration: 0.3s;
+    font-family: 'Gleego';
+
+}
+
+a li:hover{
+    color: #e53333;
+}
+
+a li:active{
+    color: #801f1f;
+}
+
+#logo{
+    width: 120px;
+    position: relative;
+    bottom: 20px;
+    right: 35px;
+}
+
+#h1-1{
+    position: relative;
+    bottom: 52px;
+    right: 50px;
+}
+
+#sair{
+    position: absolute;
+    top: 85px;
+    right: 105px;
+    border-radius: 50px;
+    width: 90px;
+    height: 22px;
+    background-color: var(--cor1);
+    color: white;
+    font-size: 12px;
+    border: 0;
+}
+
+#icon{
+    width: 30px;
+    position: relative;
+    bottom: 25px;
+    left: 285px;
+    margin: 0 7px 0 7px;
+}
+
+#icon:hover{
+    transition-duration: 0.5s;
+    filter: brightness(0.2) sepia(0.4) saturate(9997%);
+}
+
+#icon:active{
+    transition-duration: 0.3s;
+    filter: brightness(0.1) sepia(0.3) saturate(10000%);
+}
+
+#perfil{
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    margin: 0 20px 0 20px;
+}
+
+.nav2{
+    display: flex;
+    width: 230px;
+    height: 600px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.div2{
+    display: flex;
+    align-items: center;
+}
+
+#listaPerfil{
+    list-style-type: none;
+    line-height: 45px;
+}
+
+.div4{
+    position: absolute;
+    top: 183px;
+    left: 400px;
+    width: 950px;
+    height: 400px;
+    background-color: var(--cor1);
+    border-radius: 50px;
+    padding: 10px 45px 40px 45px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.div5{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    row-gap: 12px;
+}
+
+.div6{
+    display: flex;
+    width: 950px;
+    height: 320px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#h2-1{
+    width: 700px;
+    margin-left: 20px;
+    font-family: 'Gleego';
+}
+
+.div5 input{
+    width: 250px;
+    height: 30px;
+    margin-bottom: 30px;
+    padding: 0 10px;
+}
+
+body{
+    background-color: var(--cor2);
+}
+
+
+#sair2{
+    position: absolute;
+    top: 85px;
+    right: 90px;
+    border-radius: 50px;
+    width: 70px;
+    height: 22px;
+    background-color: var(--cor1);
+    color: white;
+    font-size: 12px;
+    border: 0;
+}
+
+
+#busca{
+    width: 450px;
+    height: 30px;
+    border-radius: 50px;
+    padding: 0 10px 0 10px;
+    position: relative;
+    right: 50px;
+}
+
+#buscar{
+    border-radius: 50px;
+    width: 100px;
+    height: 30px;
+    background-color: var(--cor1);
+    color: white;
+    font-size: 14px;
+    border: 0;
+    position: relative;
+    right: 15px;
+}
+
+#logo{
+    width: 120px;
+    position: relative;
+    bottom: 20px;
+    left: 5px;
+}
+
+#h1-1{
+    position: relative;
+    bottom: 52px;
+    right: 10px;
+}
+
+.div7{
+    position: relative;
+    right: 300px;
+}
+
+#icon2{
+    width: 30px;
+    position: relative;
+    bottom: 25px;
+    left: 270px;
+    margin: 0 7px 0 7px;
+}
+
+#icon2:hover{
+    filter: brightness(0.2) sepia(0.4) saturate(9997%);
+    transition-duration: 0.5s;
+}
+
+#icon2:active{
+    transition-duration: 0.3s;
+    filter: brightness(0.1) sepia(0.3) saturate(10000%);
+}
+
+.nav3{
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+}
+
+.div8{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: inherit;
+    height: 230px;
+    border-bottom: 0.5px solid var(--cor1);
+    margin-top: 100px;
+    padding-bottom: 30px;
+}
+
+.div9{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: inherit;
+    height: 320px;
+    border-bottom: 0.5px solid var(--cor1);
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+.div10{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.div8 label, .div9 label, .div10 label{
+    font-size: 14px;
+}
+
+.div8 > label, .div9 > label, .div10 > label{
+    margin: 10px 0 0 35px;
+}
+
+.div8 div, .div8 h3, .div9 div, .div9 h3, .div10 div, .div10 h3{
+    margin-left: 30px;
+    font-family: 'Gleego';
+}
+
+main{
+    position: absolute;
+    left: 350px;
+    top: 200px;
+    width: 1100px;
+}
+
+main div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main div div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.divMenor{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+main div div p{
+    font-family: 'Gleego';
+    line-height: 4px;
+    text-align: justify;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+main div div img{
+    width: 300px;
+    height: 300px;
+}
+
+#imgMenor{
+    width: 300px;
+    height: 200px;
+}
