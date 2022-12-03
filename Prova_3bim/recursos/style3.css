@@ -8,15 +8,22 @@
     src: url("fontes/Glegoo-Bold.ttf") format("truetype");
 }
 
-*{
-    max-width: 100%;
-    max-height: 100%;
-    font-family: 'Montserrat';
-}
-
 :root{
     --cor1: #595959;
     --cor2: #202020;
+    --cor3: #e53333;
+    --cor4: #801f1f;
+    --cor5: white;
+    --cor6: black;
+
+    --fonte1: 'Gleego';
+    --fonte2: 'Montserrat';
+}
+
+*{
+    max-width: 100%;
+    max-height: 100%;
+    font-family: var(--fonte2);
 }
 
 body{
@@ -30,7 +37,7 @@ body{
     margin-top: 5vh;
     margin-left: 2.5%;
     flex-direction: column;
-    color: white;
+    color: var(--cor5);
 }
 
 header{
@@ -44,7 +51,7 @@ header{
 
 .div3{
     position: relative;
-    right: 285px;
+    right: 325px;
 }
 
 #listaNav{
@@ -62,16 +69,16 @@ a:hover, a:visited, a:link, a:active{
 a li{
     color: white;
     transition-duration: 0.3s;
-    font-family: 'Gleego';
+    font-family: var(--fonte1);
 
 }
 
 a li:hover{
-    color: #e53333;
+    color: var(--cor3);
 }
 
 a li:active{
-    color: #801f1f;
+    color: var(--cor4);
 }
 
 #logo{
@@ -95,7 +102,7 @@ a li:active{
     width: 90px;
     height: 22px;
     background-color: var(--cor1);
-    color: white;
+    color: var(--cor5);
     font-size: 12px;
     border: 0;
 }
@@ -179,7 +186,7 @@ a li:active{
 #h2-1{
     width: 700px;
     margin-left: 20px;
-    font-family: 'Gleego';
+    font-family: var(--fonte1);
 }
 
 .div5 input{
@@ -202,7 +209,7 @@ body{
     width: 70px;
     height: 22px;
     background-color: var(--cor1);
-    color: white;
+    color: var(--cor5);
     font-size: 12px;
     border: 0;
 }
@@ -222,7 +229,7 @@ body{
     width: 100px;
     height: 30px;
     background-color: var(--cor1);
-    color: white;
+    color: var(--cor5);
     font-size: 14px;
     border: 0;
     position: relative;
@@ -311,7 +318,7 @@ body{
 
 .div8 div, .div8 h3, .div9 div, .div9 h3, .div10 div, .div10 h3{
     margin-left: 30px;
-    font-family: 'Gleego';
+    font-family: var(--fonte1);
 }
 
 main{
@@ -339,7 +346,7 @@ main div div{
 }
 
 main div div p{
-    font-family: 'Gleego';
+    font-family: var(--fonte1);
     line-height: 4px;
     text-align: justify;
     font-size: 12px;
@@ -354,4 +361,32 @@ main div div img{
 #imgMenor{
     width: 300px;
     height: 200px;
+}
+
+#icon3{
+    width: 30px;
+    position: relative;
+    bottom: 25px;
+    left: 285px;
+    margin: 0 7px 0 7px;
+    filter: brightness(0.2) sepia(0.4) saturate(9997%);
+}
+
+#icon3:hover{
+    transition-duration: 0.5s;
+    filter: brightness(0.1) sepia(0.4) saturate(9999%);
+}
+
+#icon3:active{
+    transition-duration: 0.3s;
+    filter: brightness(0.1) sepia(0.3) saturate(10000%);
+}
+
+#dados{
+    color: var(--cor3);
+}
+
+#dados:hover{
+    transition-duration: 0.3s;
+    color: var(--cor4);
 }

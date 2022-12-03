@@ -3,15 +3,22 @@
     src: url("fontes/Montserrat-VariableFont_wght.ttf") format("truetype");
 }
 
-*{
-    max-width: 100%;
-    max-height: 100%;
-    font-family: 'Montserrat';
-}
-
 :root{
     --cor1: #595959;
     --cor2: #202020;
+    --cor3: #e53333;
+    --cor4: #801f1f;
+    --cor5: white;
+    --cor6: black;
+
+    --fonte1: 'Gleego';
+    --fonte2: 'Montserrat';
+}
+
+*{
+    max-width: 100%;
+    max-height: 100%;
+    font-family: var(--fonte2);
 }
 
 body{
@@ -29,7 +36,7 @@ body{
 }
 
 #p1{
-    color: white;
+    color: var(--cor5);
 }
 
 #logo{
@@ -46,7 +53,7 @@ body{
     border-radius: 20px;
     background-color: var(--cor1);
     border: 0px;
-    color: white;
+    color: var(--cor5);
 }
 
 footer{
@@ -55,7 +62,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: var(--cor5);
     border-radius: 20px 20px 0 0;
     font-size: 12px;
     width: 100vw;
@@ -70,7 +77,7 @@ footer{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: white;
+    color: var(--cor5);
 }
 
 input{
@@ -111,7 +118,7 @@ input{
     width: 70px;
     height: 25px;
     background-color: var(--cor1);
-    color: white;
+    color: var(--cor5);
     font-size: 12px;
     border: 0;
 }
@@ -121,7 +128,7 @@ input{
     width: 100px;
     height: 30px;
     background-color: var(--cor1);
-    color: white;
+    color: var(--cor5);
     font-size: 14px;
     border: 0;
 }
